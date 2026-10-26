@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Flow | Customer</title>
+
+    <link
+      rel="shortcut icon"
+      href="../src/img/fork-knife.svg"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="../src/styles/customer.css" />
+    <script type="module" src="../src/js/customer.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="main-header">
+        <h1 class="main-header-title">Customer</h1>
+        <p class="main-header-text">Choose your favorite food!</p>
+
+        <button type="button" class="header-button" id="header-button">
+          Submit Request
+        </button>
+      </header>
+
+      <section class="customer" aria-label="Customer page">
+        <ol class="options">
+          <li class="order-card">
+            <article class="item">
+              <header class="item-header">
+                <span class="item-id">01</span>
+                <span class="item-status">Available</span>
+              </header>
+
+              <div class="item-info">
+                <h3 class="item-name">Burger</h3>
+                <p class="item-flavor">Classic Smash</p>
+                <p class="item-description">
+                  Beef patty, cheddar cheese, lettuce, tomato and house sauce.
+                </p>
+              </div>
+
+              <div class="recipient">
+                <span class="size">
+                  Size:&#x20;
+                  <strong> Regular </strong>
+                </span>
+
+                <span class="price">
+                  Price:
+                  <strong> U$ 10.50 </strong>
+                </span>
+              </div>
+
+              <footer class="item-footer">
+                <button type="button" class="item-button">Add to order</button>
+              </footer>
+            </article>
+          </li>
+
+          <li class="order-card">
+            <article class="item">
+              <header class="item-header">
+                <span class="item-id">02</span>
+                <span class="item-status">Available</span>
+              </header>
+
+              <div class="item-info">
+                <h3 class="item-name">Pasta</h3>
+                <p class="item-flavor">Fettuccine Alfredo</p>
+                <p class="item-description">
+                  Fettuccine pasta with creamy parmesan sauce and fresh herbs.
+                </p>
+              </div>
+
+              <div class="recipient">
+                <span class="size">
+                  Size:&#x20;
+                  <strong> Regular </strong>
+                </span>
+
+                <span class="price">
+                  Price:
+                  <strong> U$ 13.00 </strong>
+                </span>
+              </div>
+
+              <footer class="item-footer">
+                <button type="button" class="item-button">Add to order</button>
+              </footer>
+            </article>
+          </li>
+
+          <li class="order-card">
+            <article class="item">
+              <header class="item-header">
+                <span class="item-id">03</span>
+                <span class="item-status">Available</span>
+              </header>
+
+              <div class="item-info">
+                <h3 class="item-name">Steak</h3>
+                <p class="item-flavor">Grilled Ribeye</p>
+                <p class="item-description">
+                  Grilled ribeye steak served with roasted potatoes and herb
+                  butter.
+                </p>
+              </div>
+
+              <div class="recipient">
+                <span class="size">
+                  Size:&#x20;
+                  <strong> 350g </strong>
+                </span>
+
+                <span class="price">
+                  Price:
+                  <strong> U$ 22.00 </strong>
+                </span>
+              </div>
+
+              <footer class="item-footer">
+                <button type="button" class="item-button">Add to order</button>
+              </footer>
+            </article>
+          </li>
+
+          <li class="order-card">
+            <article class="item">
+              <header class="item-header">
+                <span class="item-id">04</span>
+                <span class="item-status">Available</span>
+              </header>
+
+              <div class="item-info">
+                <h3 class="item-name">Salad</h3>
+                <p class="item-flavor">Fresh Garden</p>
+                <p class="item-description">
+                  Fresh lettuce, cherry tomatoes, cucumber, carrots and lemon
+                  dressing.
+                </p>
+              </div>
+
+              <div class="recipient">
+                <span class="size">
+                  Size:&#x20;
+                  <strong> Regular </strong>
+                </span>
+
+                <span class="price">
+                  Price:
+                  <strong> U$ 8.00 </strong>
+                </span>
+              </div>
+
+              <footer class="item-footer">
+                <button type="button" class="item-button">Add to order</button>
+              </footer>
+            </article>
+          </li>
+
+          <li class="order-card">
+            <article class="item">
+              <header class="item-header">
+                <span class="item-id">05</span>
+                <span class="item-status">Available</span>
+              </header>
+
+              <div class="item-info">
+                <h3 class="item-name">Chicken</h3>
+                <p class="item-flavor">Crispy Chicken</p>
+                <p class="item-description">
+                  Crispy fried chicken breast served with seasoned fries and
+                  house sauce.
+                </p>
+              </div>
+
+              <div class="recipient">
+                <span class="size">
+                  Size:&#x20;
+                  <strong> Regular </strong>
+                </span>
+
+                <span class="price">
+                  Price:
+                  <strong> U$ 12.50 </strong>
+                </span>
+              </div>
+
+              <footer class="item-footer">
+                <button type="button" class="item-button">Add to order</button>
+              </footer>
+            </article>
+          </li>
+
+          <li class="order-card">
+            <article class="item">
+              <header class="item-header">
+                <span class="item-id">06</span>
+                <span class="item-status">Available</span>
+              </header>
+
+              <div class="item-info">
+                <h3 class="item-name">Fries</h3>
+                <p class="item-flavor">Loaded Fries</p>
+                <p class="item-description">
+                  Crispy fries topped with cheddar cheese, bacon bits and green
+                  onions.
+                </p>
+              </div>
+
+              <div class="recipient">
+                <span class="size">
+                  Size:&#x20;
+                  <strong> Large </strong>
+                </span>
+
+                <span class="price">
+                  Price:
+                  <strong> U$ 7.50 </strong>
+                </span>
+              </div>
+
+              <footer class="item-footer">
+                <button type="button" class="item-button">Add to order</button>
+              </footer>
+            </article>
+          </li>
+
+          <li class="order-card">
+            <article class="item">
+              <header class="item-header">
+                <span class="item-id">07</span>
+                <span class="item-status">Available</span>
+              </header>
+
+              <div class="item-info">
+                <h3 class="item-name">Risotto</h3>
+                <p class="item-flavor">Creamy Mushroom</p>
+                <p class="item-description">
+                  Creamy arborio rice with mushrooms, parmesan and fresh thyme.
+                </p>
+              </div>
+
+              <div class="recipient">
+                <span class="size">
+                  Size:&#x20;
+                  <strong> Regular </strong>
+                </span>
+
+                <span class="price">
+                  Price:
+                  <strong> U$ 15.00 </strong>
+                </span>
+              </div>
+
+              <footer class="item-footer">
+                <button type="button" class="item-button">Add to order</button>
+              </footer>
+            </article>
+          </li>
+
+          <li class="order-card">
+            <article class="item">
+              <header class="item-header">
+                <span class="item-id">08</span>
+                <span class="item-status">Available</span>
+              </header>
+
+              <div class="item-info">
+                <h3 class="item-name">Dessert</h3>
+                <p class="item-flavor">Chocolate Brownie</p>
+                <p class="item-description">
+                  Warm chocolate brownie served with vanilla ice cream and
+                  chocolate sauce.
+                </p>
+              </div>
+
+              <div class="recipient">
+                <span class="size">
+                  Size:&#x20;
+                  <strong> Single </strong>
+                </span>
+
+                <span class="price">
+                  Price:
+                  <strong> U$ 6.50 </strong>
+                </span>
+              </div>
+
+              <footer class="item-footer">
+                <button type="button" class="item-button">Add to order</button>
+              </footer>
+            </article>
+          </li>
+
+          <li class="order-card">
+            <article class="item">
+              <header class="item-header">
+                <span class="item-id">09</span>
+                <span class="item-status">Available</span>
+              </header>
+              <div class="item-info">
+                <h3 class="item-name">Milkshake</h3>
+                <p class="item-flavor">Strawberry Dream</p>
+                <p class="item-description">
+                  Creamy strawberry milkshake topped with whipped cream and
+                  strawberry syrup.
+                </p>
+              </div>
+
+              <div class="recipient">
+                <span class="size">
+                  Size:&#x20;
+                  <strong> 400ml </strong>
+                </span>
+
+                <span class="price">
+                  Price:
+                  <strong> U$ 5.50 </strong>
+                </span>
+              </div>
+
+              <footer class="item-footer">
+                <button type="button" class="item-button">Add to order</button>
+              </footer>
+            </article>
+          </li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>

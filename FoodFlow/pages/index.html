@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Flow | Selection</title>
+
+    <link
+      rel="shortcut icon"
+      href="../src/img/fork-knife.svg"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="../src/styles/index.css" />
+    <script type="module" src="../src/js/index.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="main-header">
+        <h1 class="main-header-title">Food Flow! How Are You?</h1>
+        <p class="main-header-text">Choose your profile to continue</p>
+      </header>
+
+      <section class="selection" aria-label="Choose you perfil">
+        <article class="profile-card">
+          <figure class="profile-card-img">
+            <img src="../src/img/waiter.jpg" alt="Waiter card" />
+          </figure>
+
+          <div class="profile-card-content">
+            <span class="profile-card-number"> 01 </span>
+            <h2 class="profile-card-title">Waiter</h2>
+            <p class="profile-card-description">
+              Manage tables and customer orders.
+            </p>
+
+            <button
+              type="button"
+              class="profile-card-button"
+              id="waiter-button"
+            >
+              I'm Waiter
+            </button>
+          </div>
+        </article>
+
+        <article class="profile-card">
+          <figure class="profile-card-img">
+            <img src="../src/img/chef.jpg" alt="Chef card" />
+          </figure>
+
+          <div class="profile-card-content">
+            <span class="profile-card-number"> 02 </span>
+            <h2 class="profile-card-title">Chef</h2>
+            <p class="profile-card-description">
+              Prepare orders and manage the kitchen.
+            </p>
+
+            <button type="button" class="profile-card-button" id="chef-button">
+              I'm Chef
+            </button>
+          </div>
+        </article>
+
+        <article class="profile-card">
+          <figure class="profile-card-img">
+            <img src="../src/img/customer.jpg" alt="Customer card" />
+          </figure>
+
+          <div class="profile-card-content">
+            <span class="profile-card-number"> 03 </span>
+            <h2 class="profile-card-title">Customer</h2>
+            <p class="profile-card-description">Order your favorite foods.</p>
+
+            <button
+              type="button"
+              class="profile-card-button"
+              id="customer-button"
+            >
+              I'm Customer
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <footer class="main-footer">
+        <span class="footer-line"></span>
+        <p class="footer-text">Food Flow</p>
+        <span class="footer-line"></span>
+      </footer>
+    </main>
+  </body>
+</html>
