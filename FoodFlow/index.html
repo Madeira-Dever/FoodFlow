@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodFlow | Login</title>
+
+    <link
+      rel="shortcut icon"
+      href="./src/imgs/fork-knife.svg"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <script type="module" src="./src/js/index.js"></script>
+  </head>
+  <body>
+    <main class="login-container">
+      <section class="login-card">
+        <header class="login-header">
+          <a href="#" class="logo">
+            <span class="logo-icon">F</span>
+            <span>Food<span>Flow</span></span>
+          </a>
+
+          <h1 id="login-title">Bem-vindo de volta!</h1>
+          <p>Entre na sua conta para continuar.</p>
+        </header>
+
+        <form id="login-form">
+          <section class="form-group">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+              autocomplete="email"
+              required
+            />
+          </section>
+
+          <section class="form-group">
+            <label for="password">Senha</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Digite sua senha"
+              autocomplete="current-password"
+              required
+            />
+          </section>
+
+          <section class="form-options">
+            <label class="remember">
+              <input type="checkbox" name="remember" />
+              <span>Lembrar de mim</span>
+            </label>
+
+            <a href="#" class="forgot-password"> Esqueceu a senha? </a>
+          </section>
+
+          <button type="submit" class="login-button">
+            Entrar na plataforma
+          </button>
+        </form>
+
+        <footer class="login-footer">
+          <p>
+            Ainda não possui uma conta?
+            <a href="#">Cadastre-se</a>
+          </p>
+          <span>© 2026 FoodFlow. Todos os direitos reservados.</span>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

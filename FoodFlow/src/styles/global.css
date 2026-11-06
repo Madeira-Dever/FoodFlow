@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap");
+@import "./toast.css";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  scrollbar-width:thin;
+  scrollbar-color:#e96640 #151516;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #d94f2b transparent;
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #0c0c0d;
+  color: #f5f1ed;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: -280px;
+  left: 50%;
+  width: 850px;
+  height: 600px;
+  transform: translateX(-50%);
+  background: radial-gradient(
+    ellipse,
+    rgba(240, 100, 50, 0.12) 0%,
+    rgba(240, 100, 50, 0.035) 40%,
+    transparent 72%
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  opacity: 0.12;
+  pointer-events: none;
+  z-index: 10;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #151516;
+  border-left: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #f27650, #d94f2b);
+  border: 2px solid #151516;
+  border-radius: 999px;
+  transition: background 0.3s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff956e, #e96640);
+}
+
+*::-webkit-scrollbar-corner {
+  background: #0c0c0d;
+}
